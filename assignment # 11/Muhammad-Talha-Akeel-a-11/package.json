@@ -1,0 +1,17 @@
+{
+  "name": "npm-packages-practice",
+  "version": "1.0.0",
+  "description": "In this project, we will use npm package named Chalk",
+  "main": "Muhammad-Talha-Akeel-a-11.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Talha",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "nodemon": "^3.1.4"
+  }
+}

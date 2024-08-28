@@ -1,0 +1,79 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.nav-bar {
+    overflow: hidden;
+  background-color: blue;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-bar a {
+    float: left;
+  background-color: green;
+  border: 1px solid black;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.nav-bar a:hover {
+    float: left;
+  background-color: pink;
+  border: 1px solid black;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.main-container{
+    width: 100%;
+    background-color: aqua;
+    padding: 20px;
+    display: flex;
+}
+
+.flag {
+    float: left;
+}
+
+.country-info {
+    float: left;
+    padding: 10px;
+}
+
+.rivers {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.info-link{
+    text-decoration: underline;
+    cursor: pointer;
+    color: blue;
+}
+
+.info-table-container {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+#info-table th, #info-table td {
+    border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#info-table th{
+    padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04AA6D;
+  color: white;
+}
